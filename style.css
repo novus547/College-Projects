@@ -295,7 +295,7 @@ color: #e4cef7;
   height: 8vw;
   border-radius: 50%;
   background-color: rgb(168, 5, 218);
-  background-image: url('./WhatsApp\ Image\ 2025-01-29\ at\ 02.38.43_a28563a3.jpg');
+  background-image: url('./c-logo.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -556,37 +556,198 @@ border-radius: 24px;
   margin-top: 10px;
 }
 
-@media (max-width: 768px) {
+
+@media (max-width: 1024px) {
   .container {
-    padding: 20px; 
+    flex-direction: column;
+    padding: 60px 5%;
+    text-align: center;
   }
 
-  .swiper {
-    width: 100%; 
-    padding: 10px;
+  .left h2 {
+    font-size: 2rem;
   }
 
+  .left h1 {
+    font-size: 3rem;
+  }
+
+  .left p {
+    max-width: 100%;
+  }
+
+  #mypic {
+    width: 80%;
+    border-radius: 50%;
+  }
+
+  .social {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .social > div {
+    width: 80%;
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    height: auto;
+    padding: 10px 5%;
+    position: relative;
+  }
+.theme{
+  display: none;
+}
   .menu {
-    /* flex-direction: column;  */
-    gap: 20px; /
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .menu a {
+    font-size: 1rem;
   }
 
   .logo a {
     font-size: 2rem;
   }
 
-  .left h2, .left h1 {
-    font-size: 1.5rem; 
+  .container {
+    padding: 40px 5%;
+  }
+
+  .left h2 {
+    font-size: 1.8rem;
+  }
+
+  .left h1 {
+    font-size: 2.5rem;
+  }
+
+  .swiper {
+    width: 100%;
+    padding: 10px;
   }
 
   .social {
-    /* flex-direction: column;  */
-    align-items: center; 
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .whychooseus {
+    flex-direction: column;
+    padding: 30px 5%;
+  }
+
+  .cont {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .photos {
+    flex-wrap: wrap;
+    gap: 20px;
+    
+  }
+
+  .p1 {
+    width: 10%;
+  }
+
+  footer {
+    padding: 30px 5%;
+  }
+
+  .footercontainer {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footersocial .icons {
+    justify-content: center;
+  }
+
+  .faqitem h3 {
+    font-size: 1rem;
+  }
+
+  .faqitem p {
+    font-size: 0.75rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .container{
+    height:auto ;
+  }
+  .logo a {
+    font-size: 1.8rem;
+  }
+
+  .menu {
+    gap: 8px;
+  }
+
+  .menu a {
+    font-size: 0.9rem;
+  }
+
+  .left h2 {
+    font-size: 1.5rem;
+  }
+
+  .left h1 {
+    font-size: 2rem;
+  }
+
+  #mypic {
+    width: 70%;
+  }
+
+  .social {
+    width: 100%;
   }
 
   .social > div {
-    width: 100%; 
-    margin-bottom: 20px; 
+    width: 90%;
+  }
+
+  .swiper {
+    width: 100%;
+  }
+.coding{
+  height: auto;
+}
+  .p1 {
+    width: 25vw;
+    height: 25vw;
+    
+  }
+
+  .faqitem h3 {
+    font-size: 0.9rem;
+  }
+
+  .faqitem p {
+    font-size: 0.7rem;
+  }
+
+  .abovefooter {
+    width: 90%;
+    padding: 20px;
+  }
+
+  .abovefooter h2 {
+    font-size: 1.5rem;
+  }
+
+  .abovefooter input,
+  .abovefooter button {
+    font-size: 0.9rem;
+    padding: 8px;
   }
 }
 
